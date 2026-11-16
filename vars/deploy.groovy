@@ -1,4 +1,4 @@
-def call(String appName){
-                sh "docker compose up -d --build ${appName}"
+def call(){
+                sh "docker compose up -d "
            
 }
